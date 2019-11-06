@@ -1,0 +1,67 @@
+body
+{
+    padding:0px;
+    margin: 0px;
+    background-color: yellow;
+}
+.menu .menu-search
+{
+    position: relative;
+    padding-top:15px;
+    display: flex;
+}
+.menu .menu-search .menu-top ul
+{
+    display: flex;
+}
+.menu .menu-search .menu-top ul li
+{
+    list-style: none;
+  
+
+}
+.menu .menu-search .menu-top ul li a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.menu .menu-search .menu-top ul li a:hover
+{
+    color: green;
+}
+.menu .menu-search .search-language
+{
+    position: absolute;
+    display: flex;
+    right: 0px;
+}
+.menu .menu-search .search-language .search input[type=text]
+{
+    width: 130px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.menu .menu-search .search-language .language
+{
+    padding-left: 5px;
+}
+.logo-customer
+{
+    height: 200px;
+    background: white;
+}

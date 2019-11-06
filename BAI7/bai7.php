@@ -1,0 +1,1 @@
+<?php echo'bai 7' ?>;

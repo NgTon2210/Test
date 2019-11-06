@@ -1,0 +1,21 @@
+.box
+{
+    width: 80%;
+    height: 50px;
+    background:yellow;
+    margin: 0px auto;
+}
+.contain .contain1
+{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background: pink;
+}
+.contain .contain2
+{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background: green;
+}
